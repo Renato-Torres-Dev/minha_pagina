@@ -4,11 +4,12 @@ body{
 }
 
 body header{
-    width: 100%;
+    width: 60%;
     height: 65px;
-    margin: 0;
+    margin: 10px 30px;
     background-color: grey;
-    display: block;
+    display: inline-block;
+    flex-flow: row nowrap;
     font-size: 36px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -68,4 +69,48 @@ body header h1{
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
     margin: 0 20px;
+}
+
+#academic{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding: 50px 0px 100px;
+    margin-bottom: 8px;
+}
+
+.academic-title{
+    display: flex;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 20px;
+    text-decoration: underline;
+}
+
+.acad-pers{
+    display: flex;
+    flex-flow: column;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 20px;
+}
+
+body footer{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.company{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.5);
+    margin: auto;
 }
